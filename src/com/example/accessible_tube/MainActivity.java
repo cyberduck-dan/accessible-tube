@@ -32,12 +32,12 @@ public class MainActivity extends Activity {
 		
 		double lat;
 		double lon;
-		
+		// test change
 		try{
 			Location loc = getLocation();
 			lat = loc.getLatitude();
 			lon = loc.getLongitude();
-			editText1.setText("Lat - " + Double.toString(lat) + ", Lon - " + Double.toString(lon));
+			//editText1.setText("Lat - " + Double.toString(lat) + ", Lon - " + Double.toString(lon));
 		}catch(Exception e){			
 			editText1.setText("Could not access the location service");
 		}
